@@ -1,0 +1,74 @@
+body{
+    background-color: lightblue;
+}
+p{
+    font-family: cursive ;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: cursive ;
+    font-size: 80px;
+}
+a{
+    color:black;
+    text-align: center ;
+    padding: 100px;
+    display: inline ;
+}
+h1{
+    font-size: 90px;
+    text-align:center;
+    font-family: monospace;
+
+}
+header{
+    Text-align: center;
+    background: url('https://www.ytravelblog.com/wp-content/uploads/2016/04/nyc-views-Roosevelt-Tram2.jpg');
+    background-size: cover;
+    color: white;
+    padding:20px 0px 0px 0px;
+}
+h3{
+    font-size: 50px;
+    text-align:center;
+}
+li {
+    display: inline ;
+    padding: 5px;
+    padding:0px 10px 0px 10px;
+  }
+  ul {
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+  }
+  h2{
+      font-size:70;
+      text-align:center;
+      font-family: monospace;
+  }
+  img {
+    margin: 40px 0px 0px 0px;
+    border: 7px solid white;
+    border-radius: 20px;
+    text-align: center;
+  }
+  div { 
+    text-align: center; 
+} 
+ 
+@media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+    }
+    li {
+      display: block;
+      padding: 5px;
+    }
+    body { 
+      background: red;
+    }
+   p {
+      font-family: monospace ;
+   }
+}
